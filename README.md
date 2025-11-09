@@ -29,5 +29,32 @@ The app was developed as part of the **TripleTen Data Science Bootcamp (Sprint 7
 
 ## ⚙️ Features
 
-- 📊 Interactive **histograms** and **scatter plots** built
+- 📊 Interactive **histograms** and **scatter plots** built with Plotly.
+- 🧮 Data exploration with Pandas.
+- 🧱 Clean modular structure with `app.py`, `requirements.txt`, and Jupyter notebook for EDA.
+- ☁️ Deployed using **Render** for live web access.
+
+---
+
+## 🚀 How to Run Locally
+
+To run this project on your local machine:
+
+```bash
+# Clone this repository
+git clone https://github.com/fuentesbolivarmaria-web/car-dashboard.git
+
+# Navigate to the project folder
+cd car-dashboard
+
+# Create and activate a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate     # On Mac/Linux
+venv\Scripts\activate        # On Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
 
